@@ -1,0 +1,8 @@
+# Ignore the entire directory "Module 3 - Nextjs & Routing"
+Module 3 - NextJS Essentials & Routing/
+
+# Ignore custom folders
+demo1-react/
+demo2-react/
+first-next-app/
+travel-blog/
