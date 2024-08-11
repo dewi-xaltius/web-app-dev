@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import Profile from './components/Profile';
 import Settings from './components/Settings';
 import UserProfile from './components/UserProfile';
+import SearchResults from './components/SearchResults';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="settings" element={<Settings />} />
           </Route>
           <Route path="/user/:userId" element={<UserProfile />} />
+          <Route path="/search" element={<SearchResults />} />
         </Routes>
       </div>
     </Router>
